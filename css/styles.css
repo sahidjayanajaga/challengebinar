@@ -198,6 +198,10 @@ sub {
     width: 40%;
 }
 
+.col-5 {
+    width: 40%;
+}
+
 .features-cont {
     display: flex;
     align-items: center;
@@ -216,6 +220,16 @@ sub {
 
 .tl-info-title {
     color: orange;
+}
+
+.garis {
+    width: 2.5px;
+    height: 108px;
+    margin-top: -145px;
+    margin-left: 7px;
+    background-color: #ffffff;
+    position: absolute;
+    transform: translateY(50%);
 }
 
 .sysreq {
@@ -417,6 +431,11 @@ sub {
     width: 40%;
     padding-left: 10%;
 }
+
+.form-row {
+    margin-top: 60px;
+}
+
 
 /*      Media Query     */
 
